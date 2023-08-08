@@ -14,7 +14,7 @@ class PostFactory extends Factory
     {
         return [
             'title' => $this->faker->word(),
-            'excerpt' => $this->faker->text(),
+            'feature_img' => 'img/post.jpg',
             'description' => $this->faker->text(),
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
